@@ -202,4 +202,14 @@ body {
     grid-template-rows: repeat(4, 1fr);
   }
 }
+@media (max-width: 480px) {
+  .name-logo {
+    font-size: 1.4rem;
+  }
+
+  .contact-wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
 
